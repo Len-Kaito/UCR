@@ -1,0 +1,35 @@
+# Datasets & Images
+dataset/
+image/
+image_lane/
+image_yolo/
+img/
+UIT_Car_Racing_2022-main/dataset/
+UIT_Car_Racing_2022-main/images/
+UIT_Car_Racing_2022-main/picture/
+
+# Checkpoints & Models
+model_yolo/
+*.pt
+*.pth
+*.weights
+*.onnx
+runs/
+_checkpoints/
+_val_preds/
+
+# Python caching & compiled files
+__pycache__/
+*.pyc
+*.so
+*.pyd
+
+# Environments & Private configs
+.env
+venv/
+env/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store

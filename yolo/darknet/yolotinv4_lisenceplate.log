@@ -1,0 +1,24 @@
+ CUDNN_HALF=1 
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+yolo-tinyv4-obj
+net.optimized_memory = 0 
+mini_batch = 8, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 0 K-images (0 Kilo-batches_64) 
+Learning Rate: 0.00261, Momentum: 0.9, Decay: 0.0005
+ Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+Loaded: 0.651916 seconds
+
+ Error in load_data_detection() - OpenCV 
+
+ (next mAP calculation at 1000 iterations) ]2;1/24000: loss=347.6 hours left=-1.0
+ 1: 347.615875, 347.615875 avg loss, 0.000000 rate, 0.910707 seconds, 64 images, -1.000000 hours left

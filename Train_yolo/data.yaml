@@ -1,0 +1,5 @@
+train: "C:/1. UIT car racing bang chuyen nghiep/dataset/dataset_od/train/images"
+val: "C:/1. UIT car racing bang chuyen nghiep/dataset/dataset_od/valid/images"
+
+nc: 5
+names: ['Trai', 'Cam_Trai', 'Cam_Phai', 'Phai', 'Thang']
