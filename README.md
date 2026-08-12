@@ -11,7 +11,6 @@ Xe tự hành nhận diện làn đường bằng segmentation, nhận diện bi
 ├── Round 3/            # Code thi vòng 3 (chạy trên xe thật với Jetson, dùng TensorRT)
 ├── Train_Seg/          # Train model segmentation làn đường (UNet nhỏ, export ONNX)
 ├── Train_yolo/         # Train YOLOv8n nhận diện biển báo giao thông
-├── yolo/darknet/       # Darknet framework (tham khảo)
 ├── socket.py           # Nhận ảnh từ xe qua socket, lưu dataset
 └── test_seg.py         # Test segmentation + PID trên xe thật
 ```
