@@ -72,6 +72,5 @@ Train YOLOv8n, 50 epoch, input 320×320. Cần sửa đường dẫn trong `data
 ## Ghi chú
 
 - Dataset và checkpoint không có trong repo này.
-- Thư mục `Map/` chứa file giả lập nặng, cũng không được push lên.
 - Code vòng 1&2 cần thư viện `CEEC_Library` / `client_lib.so` từ BTC.
 - Code vòng 3 cần board Jetson với thư viện `UITCar` và TensorRT.
